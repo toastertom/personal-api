@@ -1,7 +1,7 @@
 var user = {
   name: 'Thomas',
   location: 'SLC',
-  occupation: ['daddy', 'Salesman', 'Mechanic'],
+  occupation: ['Construction', 'Salesman', 'Mechanic'],
   hobbies: [
     {
       name: 'Reading',

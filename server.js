@@ -8,13 +8,14 @@ app.use(bodyParser.json());
 app.use(middleware.addHeaders);
 
 
-app.get('/name',mainCtrl.user.name);
-app.get('/location',mainCtrl.user.location);
-app.get('/occupation',mainCtrl.user.occupation);
-// app.get('/occupation/latest',mainCtrl.name);
-app.get('/hobbies',mainCtrl.user.hobbies);
+app.get('/name',mainCtrl.getName);
+app.get('/location',mainCtrl.getLocation);
+app.get('/occupation',mainCtrl.getOccupation);
+app.get('/occupation/latest',mainCtrl.getOccupationLatest);
+app.get('/hobbies',mainCtrl.getHobbies);
+app.get('/family',mainCtrl.getFamily);
 
 
-app.listen(8001 ,function () {
-  console.log('Listening on port 8001');
+app.listen(8002 ,function () {
+  console.log('Listening on port 8002');
 })
