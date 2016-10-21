@@ -10,12 +10,12 @@ var user = {
     {
       name: null,
       type: null
-    }
+    },
     {
       name: null,
       type: null
     },
-  ]
+  ],
   family: [
     {
       name: null,
@@ -32,7 +32,7 @@ var user = {
       relation: null,
       gender: null
     }
-  ]
+  ],
   resturants: [
     {
       name: null,
