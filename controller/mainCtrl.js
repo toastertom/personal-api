@@ -17,9 +17,15 @@ getOccupationLatest: function (req, res) {
 getHobbies: function (req, res) {
   res.status(200).send(JSON.stringify(user.hobbies));
 },
-// getHobbiesType: function (req, res) {
-//   res.status(200).send(JSON.stringify(user.hobbies));
-// },
+getHobbiesType: function (req, res) {
+  res.status(200).send(JSON.stringify(user.hobbies.filter(function (type) {
+    for (var key in hobbies) {
+      if (key === req.type){
+
+      }
+    }
+  })));
+},
 getFamily: function (req, res) {
   res.status(200).send(JSON.stringify(user.family));
 },
