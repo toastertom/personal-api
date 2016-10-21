@@ -8,11 +8,11 @@ app.use(bodyParser.json());
 app.use(middleware.addHeaders);
 
 
-app.get('/name',mainCtrl.name);
-app.get('/location',mainCtrl.location)
-app.get('/occupation',mainCtrl.occupation);
+app.get('/name',mainCtrl.user.name);
+app.get('/location',mainCtrl.user.location);
+app.get('/occupation',mainCtrl.user.occupation);
 // app.get('/occupation/latest',mainCtrl.name);
-app.get('/hobbies',mainCtrl.hobbies);
+app.get('/hobbies',mainCtrl.user.hobbies);
 
 
 app.listen(8001 ,function () {

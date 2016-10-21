@@ -1,13 +1,4 @@
 module.exports = {
-  myFunction: function (req, res) {
-
-  },
-  anotherFunction: function (req, res) {
-
-  }
-}
-
-module.exports = {
 
   addHeaders: function(req, res, next) {
     res.status(200).set({

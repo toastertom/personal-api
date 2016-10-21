@@ -1,53 +1,53 @@
 var user = {
-  name: null,
-  location: null,
-  occupation: [],
+  name: 'Thomas',
+  location: 'SLC',
+  occupation: ['daddy', 'Salesman', 'Mechanic'],
   hobbies: [
     {
-      name: null,
-      type: null
+      name: 'Reading',
+      type: 'acedemic'
     },
     {
-      name: null,
-      type: null
+      name: 'Food',
+      type: 'Culinary'
     },
     {
-      name: null,
-      type: null
+      name: 'Guitar',
+      type: 'Music'
     },
   ],
   family: [
     {
-      name: null,
-      relation: null,
-      gender: null
+      name: 'Baylee',
+      relation: 'Wife',
+      gender: 'Female'
     },
     {
-      name: null,
-      relation: null,
-      gender: null
+      name: 'Tanner',
+      relation: 'Brother',
+      gender: 'Male'
     },
     {
-      name: null,
-      relation: null,
-      gender: null
+      name: 'Lydia',
+      relation: 'Sister',
+      gender: 'Female'
     }
   ],
   resturants: [
     {
-      name: null,
-      type: null,
-      rating: null
+      name: 'Manderin',
+      type: 'Chinese',
+      rating: '5'
     },
     {
-      name: null,
-      type: null,
-      rating: null
+      name: 'American Burger',
+      type: 'American',
+      rating: '5'
     },
     {
-      name: null,
-      type: null,
-      rating: null
+      name: 'El Toro Veijo',
+      type: 'Mexican',
+      rating: '5'
     }
   ]
 };
