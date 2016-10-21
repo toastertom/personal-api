@@ -17,7 +17,20 @@ getOccupationLatest: function (req, res) {
 getHobbies: function (req, res) {
   res.status(200).send(JSON.stringify(user.hobbies));
 },
+// getHobbiesType: function (req, res) {
+//   res.status(200).send(JSON.stringify(user.hobbies));
+// },
 getFamily: function (req, res) {
   res.status(200).send(JSON.stringify(user.family));
+},
+getFamilyGender: function (req, res) {
+  res.status(200).send(JSON.stringify(user.family));
+},
+getResturants: function (req, res) {
+  res.status(200).send(JSON.stringify(user.resturants));
 }
+// getResturantsName: function (req, res) {
+//   res.status(200).send(JSON.stringify(user.resturants));
+// }
+
 };

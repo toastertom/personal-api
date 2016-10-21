@@ -13,8 +13,11 @@ app.get('/location',mainCtrl.getLocation);
 app.get('/occupation',mainCtrl.getOccupation);
 app.get('/occupation/latest',mainCtrl.getOccupationLatest);
 app.get('/hobbies',mainCtrl.getHobbies);
+// app.get('/hobbies/type:',mainCtrl.getHobbiesType);
 app.get('/family',mainCtrl.getFamily);
-
+// app.get('/family/gender',mainCtrl.getFamilyGender);
+app.get('/resturants',mainCtrl.getResturants);
+// app.get('/resturants/name',mainCtrl.getResturantsName);
 
 app.listen(8002 ,function () {
   console.log('Listening on port 8002');
